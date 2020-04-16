@@ -1,5 +1,5 @@
 /*
-    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+    Proyecto desarrollado por Juan Pablo Barrera  - https://github.com/juanpablo-is/
 */
 
 :root {
@@ -181,6 +181,7 @@ footer h2 {
     font-weight: 300;
     margin: 0;
     padding: 5px 0;
+    font-size: 18px;
     font-family: var(--fuente);
 }
 
@@ -191,5 +192,5 @@ footer a {
 }
 
 /*
-    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+    Proyecto desarrollado por Juan Pablo Barrera  - https://github.com/juanpablo-is/
 */

@@ -1,5 +1,5 @@
 /*
-    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+    Proyecto desarrollado por Juan Pablo Barrera  - https://github.com/juanpablo-is/
 */
 
 var boton = document.getElementById("btnContinuar");
@@ -392,5 +392,5 @@ function cargarHTML() {
 
 
 /*
-    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+    Proyecto desarrollado por Juan Pablo Barrera  - https://github.com/juanpablo-is/
 */
