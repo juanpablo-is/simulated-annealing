@@ -1,3 +1,7 @@
+/*
+    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+*/
+
 var boton = document.getElementById("btnContinuar");
 let variables;
 let restricciones;
@@ -385,3 +389,8 @@ function cargarHTML() {
     divCampos.appendChild(divInputs);
     divPrincipal.appendChild(divCampos);
 }
+
+
+/*
+    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+*/

@@ -1,3 +1,7 @@
+/*
+    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+*/
+
 :root {
     --colorPrincipal: #292E34;
     --colorSegundario: hsla(0, 0%, 100%, .1);
@@ -23,6 +27,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -38,7 +43,7 @@ input[type=number] {
 
 #principal {
     width: 60%;
-    margin: 20px 0;
+    margin: 50px 0;
     border-radius: 15px;
     padding: 10px;
     background-color: var(--colorPrincipal);
@@ -163,3 +168,28 @@ select {
 select:focus {
     outline: 0;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--colorPrincipal);
+    width: 100%;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    padding: 5px 0;
+    font-family: var(--fuente);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*
+    Proyecto desarrolladó por Juan Pablo Barrera  - https://github.com/juanpablo-is/
+*/
