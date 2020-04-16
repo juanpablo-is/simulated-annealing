@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulated Annealing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div id="principal">
+        <div id="camposInicio">
+            <div class="camposInicio">
+                <div class="inputInicio">
+                    <label for="cantidadVariables">Cantidad Variables:</label>
+                    <input id="cantidadVariables" type="number" required>
+                </div>
+                <div class="inputInicio">
+                    <label for="cantidadRestricciones">Cantidad Restricciones:</label>
+                    <input id="cantidadRestricciones" type="number" required>
+                </div>
+            </div>
+            <div class="camposInicio">
+                <div class="inputInicio">
+                    <label for="iteracionDiferente">Iteraciones diferente T:</label>
+                    <input id="iteracionDiferente" type="number" required>
+                </div>
+                <div class="inputInicio">
+                    <label for="iteracionIgual">Iteraciones igual T:</label>
+                    <input id="iteracionIgual" type="number" required>
+                </div>
+            </div>
+            <div class="camposInicio">
+                <div class="inputInicio">
+                    <label for="temperatura">Ingrese temperatura:</label>
+                    <input id="temperatura" type="number" required>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <button id="btnContinuar">CONTINUAR</button>
+    </div>
+</body>
+
+<script src="js/Chart.min.js"></script>
+<script src="js/javascript.js"></script>
+</html>
